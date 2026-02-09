@@ -6,8 +6,8 @@ Designed with a modern dark theme and built using native PHP and MySQL.
 🌐 Live Demo: https://fatihulumam.gt.tc
 
 ## Preview
-![Landing Page](screenshots/landing.png)
-![Admin Dashboard](screenshots/admin.png)
+![Landing Page](assets/img/portfolio-page.png)
+![Admin Dashboard](assets/img/admin-page.png)
 
 
 ---
