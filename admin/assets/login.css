@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #1a1a1a, #000);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Wrapper */
+.login-wrapper {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+/* Card */
+.login-card {
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+}
+
+/* Title */
+.login-card h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.login-card p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+/* Field */
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    font-size: 13px;
+    color: #bbb;
+    margin-bottom: 6px;
+}
+
+.field input {
+    width: 100%;
+    padding: 14px 16px;
+    background: #0f0f0f;
+    border: 1px solid #222;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.field input:focus {
+    border-color: #fff;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.85;
+}

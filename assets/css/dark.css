@@ -1,0 +1,104 @@
+body.dark {
+    background-color: #0e0e0e;
+    color: #f1f1f1;
+}
+
+body.dark p {
+    color: #bbb;
+}
+
+/* Button */
+body.dark .btn.primary {
+    background-color: #fff;
+    color: #111;
+}
+
+body.dark .btn.primary:hover {
+    background-color: #e5e5e5;
+}
+
+body.dark .btn.outline {
+    border-color: #fff;
+    color: #fff;
+}
+
+body.dark .btn.outline:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+/* Navbar */
+
+body.dark .navbar {
+    background-color: rgba(14, 14, 14, 0.9);
+}
+
+body.dark .nav-link {
+    color: #aaa;
+}
+
+body.dark .nav-link.active,
+body.dark .nav-link:hover {
+    color: #fff;
+}
+
+
+/* hero */
+body.dark .hero-image img {
+    filter: grayscale(100%) brightness(0.9);
+     transition: 0.4s ease;
+}
+
+body.dark .hero-image img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.03);
+}
+
+
+/* Cards */
+body.dark .skill-card,
+body.dark .project-card {
+    border-color: #2a2a2a;
+    background-color: #151515;
+}
+
+/* Contact underline */
+body.dark .contact-links a::after {
+    background-color: #fff;
+}
+
+body.dark .contact-links i {
+    color: #fff;
+}
+
+/* Project Detail */
+body.dark .project-detail .tech-stack {
+    color: #aaa;
+}
+
+body.dark .project-detail {
+    color: #eaeaea;
+}
+
+body.dark .project-detail h1 {
+    color: #fff;
+}
+
+body.dark .project-detail .long-desc {
+    color: #ccc;
+}
+
+body.dark .back-link {
+    color: #aaa;
+}
+
+body.dark .back-link:hover {
+    color: #fff;
+}
+
+
+/* Footer */
+body.dark .footer {
+    color: #999;
+    border-top: 1px solid #222;
+}
